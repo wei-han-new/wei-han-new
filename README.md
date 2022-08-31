@@ -1,6 +1,6 @@
 - 👋 Hi, I’m Wei
 - 👀 I’m interested in PDE, Data Science and Datawarehouse
-- 🌱 I’m currently learning ...
+- 🌱 I’m currently learning Machine Learning Algorithm.
 - 💞️ I’m looking to collaborate on Data Science Project
 - 📫 How to reach me ...
 
