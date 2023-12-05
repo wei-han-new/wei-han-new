@@ -1,0 +1,4 @@
+1. podman pull docker.io/gitlab/gitlab-ee:16.6.1-ee.0
+2. optional, install podman-compose in ubuntu 22.04, pip install podman-compose, podman-compose --version
+2. create podman-compose.yml for gitlab file
+3. 
