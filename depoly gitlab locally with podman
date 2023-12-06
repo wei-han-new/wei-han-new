@@ -1,4 +1,7 @@
 1. podman pull docker.io/gitlab/gitlab-ee:16.6.1-ee.0
 2. optional, install podman-compose in ubuntu 22.04, pip install podman-compose, podman-compose --version
 2. create podman-compose.yml for gitlab file
-3. 
+3. config for gitlab container:
+hostname: local_ip_address(ifconfig)
+sudo podman run -d --name gitlab --memory=2560m --hostname http://172.29.33.148 --publish 443:443 --publish 80:80 --publish 22:22 --volume /opt/gitlab/config:/etc/gitlab --volume /opt/gitlab/logs:/var/log/gitlab --volume /opt/gitlab/data:/var/opt/gitlab
+ gitlab/gitlab-ee:16.6.1-ee.0
